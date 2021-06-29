@@ -16,6 +16,7 @@ import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert.js';
+import LinkImage from "@ckeditor/ckeditor5-link/src/linkimage";
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
@@ -36,6 +37,7 @@ Editor.builtinPlugins = [
 	AutoImage,
 	Autoformat,
 	Bold,
+	LinkImage,
 	CKFinder,
 	CKFinderUploadAdapter,
 	Essentials,
