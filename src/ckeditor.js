@@ -40,6 +40,8 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+import Strikethrough from "@ckeditor/ckeditor5-basic-styles/src/strikethrough";
+import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline";
 
 class Editor extends ClassicEditor {}
 
@@ -79,6 +81,8 @@ Editor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
+	Underline,
+	Strikethrough,
 	Table,
 	TableToolbar,
 	TextTransformation

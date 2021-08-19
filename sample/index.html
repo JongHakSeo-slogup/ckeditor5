@@ -106,13 +106,15 @@
 		<script src="../build/ckeditor.js"></script>
 		<script>ClassicEditor
 				.create( document.querySelector( '.editor' ), {
-					
+
 				toolbar: {
 					items: [
 						'heading',
-						'|',
 						'alignment',
+						'|',
 						'bold',
+						'underline',
+						'strikethrough',
 						'italic',
 						'link',
 						'bulletedList',
@@ -138,6 +140,9 @@
 					]
 				},
 				language: 'ko',
+				alignment:{
+					options:['left', 'center', 'right']
+				},
 				image: {
 					toolbar: [
 						'imageTextAlternative',
