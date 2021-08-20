@@ -77,7 +77,7 @@ Editor.builtinPlugins = [
 	LinkImage,
 	List,
 	ListStyle,
-	Markdown,
+	// Markdown,
 	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
